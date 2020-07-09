@@ -20,6 +20,10 @@ body {
   font-family: "Montserrat";
 }
 
+p {
+  color: #8f8f8f;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -56,12 +60,21 @@ body {
   margin: 5% 3% 5% 0;
 }
 
-/* Product Information */
-.fa {
+/* Features Section */
+.icon {
   color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
 }
 
 .col-lg-4 {
   text-align: center;
-  margin: 6rem auto 10rem;
+}
+
+#features {
+  padding: 7% 15%;
 }
